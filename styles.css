@@ -1,0 +1,44 @@
+/* The code from lines 2-4 puts the title of the website in the center */
+.title{ 
+    text-align:center;
+}
+/* The code from lines 6-10 adds the black background-color and white text color for each section heading. If you want to change the color of the section headers, change this code!*/
+
+img{
+    height: 250px; 
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 30px;
+    font-family: "Lucida Handwriting", Cursive;
+    text-decoration: underline;
+    text-align: center;
+    color: #000000;
+}
+
+p{
+    font-size: 25px;
+    font-family: "Lucida Handwriting", Cursive;
+    text-align: center;
+    color:#000000;
+}
+
+a{
+    font-size: 23px;
+    font-family: "Lucida Handwriting", Cursive;
+    text-align: left;
+    color: #000000;
+    text-decoration: underline;
+}
+
+body{
+    background-image: linear-gradient(to right,purple,yellow);
+}
